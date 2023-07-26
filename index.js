@@ -17,7 +17,8 @@ menu.addEventListener("click", function(){
         }
     })
     if(hidden){
-        sideBar.style.width = "56px"
+        sideBar.style.width = "76px"
+        menu.style.margin = "0 24px"
     } else {
         sideBar.style.width = "250px"
     }
